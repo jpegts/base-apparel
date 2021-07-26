@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    // Ta3 React Use Before Define
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    // JSX Dakhel Les Fichiers TSX
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    // Ta3 L'extension
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    // Variable Non Utilisé
+    "no-unused-vars": "off",
+    // Bach N3ayat LJSX Mans7a9sh Ndefinih
+    "no-undef": "off",
+    // Hadi Bach Mayb9ash Ydemandé f Type Ta3 Props Ou Houwa 9ader Yestentajhom Men ReactFC Generic
+    "react/prop-types": 0,
+    // Hadi Bach Nesta3ml Spreading Operations
+    "react/jsx-props-no-spreading": 0,
+    // Hadi Ta3 Export Default Prefer x)
+    "import/prefer-default-export": 0,
+    // Hadi Ta3 apostrophe ou les caractère spéciaux
+    "react/no-unescaped-entities": 0
+  },
+  // Hadi Tna7i El Moushkel Ta3 App Ma3rfhach
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
