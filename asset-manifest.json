@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/base-apparel/static/js/main.ffc74c72.chunk.js",
-    "main.js.map": "/base-apparel/static/js/main.ffc74c72.chunk.js.map",
+    "main.js": "/base-apparel/static/js/main.1297e855.chunk.js",
+    "main.js.map": "/base-apparel/static/js/main.1297e855.chunk.js.map",
     "runtime-main.js": "/base-apparel/static/js/runtime-main.5134273f.js",
     "runtime-main.js.map": "/base-apparel/static/js/runtime-main.5134273f.js.map",
     "static/css/2.679831fc.chunk.css": "/base-apparel/static/css/2.679831fc.chunk.css",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5134273f.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.6387669b.chunk.js",
-    "static/js/main.ffc74c72.chunk.js"
+    "static/js/main.1297e855.chunk.js"
   ]
 }
